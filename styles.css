@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin:25px;
+    padding:0px;
+}
+.container h2, .container h3{
+    padding:10px
+}
+input{
+    font-family: sans-serif;
+    font-style:italic;
+    font-weight: lighter;
+    position: relative;
+    margin-left: 12px;
+    width:200px;
+    height:30px;
+    border: 2px solid rgb(56, 3, 106);
+    border-radius: 10px;
+    padding-left: 6px;
+}
+#myButton{
+    margin-left:5px;
+    border-radius:8px;
+    border:2px solid orange;
+    background-color: orange;
+
+}
+ul li{
+    list-style-type: none;
+}
+ul li{
+    font-family:cursive;
+    margin-left:12px;
+    margin-top: 12px;
+    padding:5px;
+}
+#myButton{
+    height:30px;
+    width:50px;
+}
+@media screen  and (min-width:300px) and (max-width:380px){
+    .container{
+     margin: 12px;
+    }
+    ul li{
+     font-family: monospace;
+    }
+}
+@media screen  and (min-width:291px) and (max-width:301px){
+    .container{
+     margin: 7px;
+    }
+    ul li{
+     font-family: monospace;
+    }
+}
+@media screen  and (min-width:287px) and (max-width:290px){
+    .container{
+     margin: 3px;
+    }
+    ul li{
+       font-family: monospace;
+    }
+    
+}
+@media screen  and (min-width:233px) and (max-width:286px){
+    .container{
+     margin: 3px;
+    }
+    input{
+        width:150px;
+    }
+    ul li{
+       font-family: monospace;
+    }
+}
+
+@media screen  and (min-width:203px) and (max-width:232px){
+    .container{
+     margin: 3px;
+    }
+    input{
+        width:120px;
+    }
+    ul li{
+      font-family: monospace;
+    }
+}
+@media screen  and (min-width:200px) and (max-width:202px){
+    .container{
+     margin: 1.5px;
+    }
+    input{
+        width:120px;
+    }
+    ul li{
+        font-family: monospace;
+    }
+}
